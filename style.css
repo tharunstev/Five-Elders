@@ -272,7 +272,7 @@ video{
 .texthover {
     height: 100%;
     width: 100%;
-    background-color:rgb(245, 210, 73);
+   background-color:rgb(132, 132, 130);
     padding: 50px;
     opacity: 0;
 }
@@ -282,8 +282,10 @@ video{
     font-weight: 900;
     position: relative;
     justify-content: center;
+    color: #343333;
 }
 .texthover p{
+    color: #343333;
     font: 10px;
     font-weight: 400;
     position: relative;
@@ -302,4 +304,16 @@ video{
 
     
 }
+#page3{
+    position:relative;
+    height: 9vh;
+    width: 100%;
 
+    /* background-color: rgb(48, 47, 47); */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 6.5vw;
+    padding: 0 100px;
+    /* z-index: 1; */
+}
